@@ -1,0 +1,11 @@
+# You can get PHPSESSID from the Network tab in your browser, look for an API call (GetNotifications for example), then look for the request cookies. DM on Discord if you need help finding it
+PHPSESSID=
+
+# Speedrun.com username
+USERNAME=Biksel
+
+# Game URLs (abbreviations) separated by a comma ,   e.g (quiplash,q2i)
+GAMES=q2i,quiplash,bikerace_supermod
+
+# Delay in minutes, recommended 5, might break with less
+DELAY = 5
