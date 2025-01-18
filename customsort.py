@@ -20,7 +20,7 @@ with open("config.txt", "r") as f:
 
 if not PHPSESSID or not userUrl or not gameUrls:
     print(f"{time.ctime()}: Config not loaded, exiting")
-    exit()
+    input()
 
 print(f"{time.ctime()}: Config loaded for {userUrl} with games: {gameUrls}")
 
@@ -38,7 +38,7 @@ try:
 except Exception as e:
     print(str(e))
     print(f"{time.ctime()}: Error fetching game IDs, exiting")
-    exit()
+    input()
 
 print(f"{time.ctime()}: Game IDs fetched: {bottom_gameIds}")
 
